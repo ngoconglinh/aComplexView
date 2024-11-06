@@ -3,6 +3,8 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
+        maven { url "https://jitpack.io" }
+        maven { url "https://repo.grails.org/grails/core/" }
     }
 }
 dependencyResolutionManagement {
@@ -10,6 +12,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url "https://jitpack.io" }
+        maven { url "https://repo.grails.org/grails/core/" }
     }
 }
 rootProject.name = "My Application"
