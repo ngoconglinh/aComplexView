@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/sakacyber/html-textview.svg)](https://jitpack.io/#ngoconglinh/aComplexView/)
+[![](https://jitpack.io/v/ngoconglinh/aComplexView.svg)](https://jitpack.io/#ngoconglinh/aComplexView)
 
 ## Quick Start
 
