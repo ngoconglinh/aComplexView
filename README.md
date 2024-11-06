@@ -13,11 +13,8 @@ implementation "com.github.ngoconglinh:aComplexView:1.0.0"
 ## Usage
 
 to use **ComplexView**:
+
 in **Setting.gradle**
-dependencyResolutionManagement {
-repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-repositories {
-mavenCentral()
 ```groovy
 	dependencyResolutionManagement {
 		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
