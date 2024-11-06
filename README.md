@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/sakacyber/html-textview.svg)](https://jitpack.io/#sakacyber/html-textview)
+[![](https://jitpack.io/v/sakacyber/html-textview.svg)](https://jitpack.io/#ngoconglinh/aComplexView/)
 
 ## Quick Start
 
@@ -13,7 +13,20 @@ implementation "com.github.ngoconglinh:aComplexView:1.0.0"
 ## Usage
 
 to use **ComplexView**:
-
+in **Setting.gradle**
+dependencyResolutionManagement {
+repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+repositories {
+mavenCentral()
+```groovy
+	dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
 ```xml
     <com.lutech.ComplexView.ComplexView
         android:id="@+id/complexView"
