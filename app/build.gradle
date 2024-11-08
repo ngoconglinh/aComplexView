@@ -45,6 +45,12 @@ android {
             excludes += '/META-INF/{AL2.0,LGPL2.1}'
         }
     }
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
+        }
+    }
 }
 
 dependencies {
@@ -65,4 +71,18 @@ dependencies {
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
+}
+
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId = 'com.github.ngoconglinh'
+            artifactId = 'aComplexView'
+            version = '1.0.4'
+
+            afterEvaluate {
+                from components.release
+            }
+        }
+    }
 }
